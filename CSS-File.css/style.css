@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 1600px;
+    height: 750px;
+    background-image: url("/images/banner/banner2.png");
+}
+
+.banner-header {
+    padding: 200px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-right: 300px;
+}
+
+.banner-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+
+.btn-primary {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    width: 140px;
+    background-color: red;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: green;
+    color: red;
+}
+
+/* failure-year part------------------- */
+.failure-year{
+    display: flex;
+    margin-top: 130px;
+}
+.person-img{
+    width: 500px;
+    height: 600px;
+    margin-left: 200px;
+}
+.failure-year-sub{
+    margin-top: 160px;
+    margin-right: 100px;
+    margin-left: 170px;
+}
+.failure-year-header{
+    font-weight: 500px;
+    font-size: 35px; 
+}
+.failure-year-desc{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+/* my paln--------------------------------------- */
+.my-plan{
+    margin-top: 130px;
+    text-align: center;
+   
+}
+.my-plan-header{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly
+}
+.container-header{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* contact section ----------------------- */
+.image{
+    margin-top: 125px;
+    background-image:linear-gradient(to right, #F15B22, rgba(241, 91, 34, 0) ),url("/images/watch.png");
+
+    width: 1140px;
+    height: 250px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px; */
+}
+.img-header{
+    margin-left: 65px;
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.container-list-img:hover{
+    box-shadow: 5px 5px 8px rgb(211, 25, 25);
+}
+
+
+.btn-primary-btn{
+    margin-left: 65px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 160px;
+    background-color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: red;
+}
+.btn-primary-btn:hover{
+      background-color: blue;
+      color: white;
+}
+
+/* footer -------------------------------------- */
+
+.footer-main{
+    background-color: #151414;
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-evenly;
+    height: 577px;
+}
+.footer-header{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.footer-desc{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer-email{
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-phone{
+    color: white;
+    margin-bottom: 20px;
+}
+.icon-img{
+    padding: 5px;
+}
+.icon-img:hover{
+    box-shadow: 5px 5px 8px rgb(68, 211, 25);
+}
+.footer-Subscribe{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-email-box{
+    display: block;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid #F3F3F3;
+    margin: 35px 0 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn-primary-footer{
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border-radius: 5px;
+}
+.btn-primary-footer:hover{
+    background-color: blue;
+    color: white;
+}
